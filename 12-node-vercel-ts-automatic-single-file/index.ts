@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", async (req: Request, res: Response) => {
-  res.status(200).send("called route 1");
+  res.status(200).send("Hello, Vercel 12");
 });
 
 app.get("/route2", async (req: Request, res: Response) => {
